@@ -1,10 +1,3 @@
-# Requests
-
-[![Version](https://img.shields.io/pypi/v/requests.svg?maxAge=86400)](https://pypi.org/project/requests/)
-[![Supported Versions](https://img.shields.io/pypi/pyversions/requests.svg)](https://pypi.org/project/requests)
-[![Downloads](https://static.pepy.tech/badge/requests/month)](https://pepy.tech/project/requests)
-[![Contributors](https://img.shields.io/github/contributors/psf/requests.svg)](https://github.com/psf/requests/graphs/contributors)
-[![Documentation](https://readthedocs.org/projects/requests/badge/?version=latest)](https://requests.readthedocs.io)
 
 **Requests** is a simple, yet elegant, HTTP library.
 
@@ -54,22 +47,6 @@ Requests is ready for the demands of building robust and reliable HTTP–speakin
 - Streaming Downloads
 - Automatic honoring of `.netrc`
 - Chunked HTTP Requests
-
-## Cloning the repository
-
-When cloning the Requests repository, you may need to add the `-c
-fetch.fsck.badTimezone=ignore` flag to avoid an error about a bad commit timestamp (see
-[this issue](https://github.com/psf/requests/issues/2690) for more background):
-
-```shell
-git clone -c fetch.fsck.badTimezone=ignore https://github.com/psf/requests.git
-```
-
-You can also apply this setting to your global Git config:
-
-```shell
-git config --global fetch.fsck.badTimezone ignore
-```
 
 ---
 
